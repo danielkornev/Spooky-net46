@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cb1a4015-0688-4ec7-be33-0c86dfc2f57c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Spooky.Json20.JsonNet.SharedImplementation</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfoCommon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcErrorCodes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcHttpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcHttpTransport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcMediaTypes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcNamedPipesClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcNamedPipesTransport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcRequestIdGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonRpcVersions.cs" />
+  </ItemGroup>
+</Project>
